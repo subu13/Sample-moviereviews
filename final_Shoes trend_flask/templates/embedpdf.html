@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="../static/css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="banner">
+      <div class="navbar">
+        <h1 class="animated bounceInUp">XSS Finder</h1>
+        <ul>
+          <li><a href="/login/home">Home</a></li>
+          <li><a href="/login/ML">ML model</a></li>
+          <li><a href="/login/embedpdf">Paper</a></li>
+          <li><a href="/login/about">About</a></li>
+          <li><a href="/">Logout</a></li>
+        </ul>
+      </div>
+      <main class="con">
+        <section>
+          <embed src="../static/files/Yilmazfinalreport.pdf#view=FitH" type="application/pdf" width="750" height="600px"/>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
